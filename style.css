@@ -15,5 +15,67 @@ html { box-sizing: border-box; }
 
 
 body {
-    background-color: #bdc3c7;
+    color: white;
+    background-color:  #bdc3c7;
+    width: 250px;
+    box-sizing: border-box;
+    
+
+    
 }
+img {
+    width: 250px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+    font-size: 150%;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 90%;
+}
+.foto {
+    float: left;
+    block-size: 30%;
+    position: static;   
+} 
+.logo {
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    width: 50px;
+    height: 50px;
+    background-color: #b92e81;
+    border-radius: 100%;
+    display: block;
+}
+.obsah {
+    background-color:  #31363b; 
+    float: left;
+    block-size: 55%;
+    position: static;
+    padding: 1em;
+}
+li {
+    display: inline-block;
+} 
+.odkazy {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    background-color: #31363b;
+    block-size: 15%;
+    display: block;
+    text-align: center; 
+    
+    
+}  
+.portfolio {
+    float: left;
+    display: block;
+    
+    position: static; 
+      
+}
+
