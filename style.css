@@ -61,51 +61,54 @@ li {
     display: inline-block;
     block-size: 15%;
 }
+ul {
+    margin: 0;
+    padding: 0px;
+}
 .odkazy {
-
+    display: block;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration-line: none;
-    background-color: #31363b;
+    font-size: 80%;
     color: white;
-    align-items: stretch;
-    justify-content: center;
-    box-shadow: #bdc3c7 2px 2px;
-   
-}
+    background-color: #31363b;
 
-.facebook .twitter {
-    padding: 10px;
-    text-align: center;
-    margin-top: 20%;
-    
 }  
-
-/*.portfolio {
+.portfolio {
     text-align: center;
+    text-decoration-line: none;
     box-sizing: border-box;
-    margin-left: 1em;
-    margin-bottom: 1em;
-   
+    border: 1px solid #3f464d;
+    width: 250px;
+    margin: 0;
+    padding: 10px;
+    
 }
-.facebook {
+.facebook, .twitter {
     display: inline-block;
-    float: left;
-    padding-right: 20px
-    margin-left: 0;
-    margin-bottom: 1em;
+    box-sizing: border-box;
+    width: 125px;
+    border: 1px solid #3f464d;
+    text-align: center; 
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0,5px 0,5px 0,5px #3f464d;
 }
 .twitter {
-    display: inline-block; 
-    float: left;
-    padding-left: 20px;
-    padding-right: 10px;
-    margin-left: 1em;
-    margin-bottom: 1em;
-      
+    background-color: #1da1f2;
+}
+
+a:hover, a:focus {
+    background-color: #e74c3c;
 }
 
 
+/*
+Prosím pomoct s těmito zádrhely:
+- nemůžu se zbavit podtrženého textu
+- nelze mi změnit barva textu v odkazech
+- nějak nevím, jak nastavit každému tlačítku jinou barvu při najetí myši
+Děkuji :)
 */
 
-/*
