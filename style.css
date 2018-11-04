@@ -59,23 +59,53 @@ p {
 }
 li {
     display: inline-block;
-} 
+    block-size: 15%;
+}
 .odkazy {
+
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration-line: none;
     background-color: #31363b;
-    block-size: 15%;
-    display: block;
-    text-align: center; 
-    
+    color: white;
+    align-items: stretch;
+    justify-content: center;
+    box-shadow: #bdc3c7 2px 2px;
+   
+}
+
+.facebook .twitter {
+    padding: 10px;
+    text-align: center;
+    margin-top: 20%;
     
 }  
-.portfolio {
+
+/*.portfolio {
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 1em;
+    margin-bottom: 1em;
+   
+}
+.facebook {
+    display: inline-block;
     float: left;
-    display: block;
-    
-    position: static; 
+    padding-right: 20px
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+.twitter {
+    display: inline-block; 
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 1em;
+    margin-bottom: 1em;
       
 }
 
+
+*/
+
+/*
