@@ -60,20 +60,19 @@ p {
 li {
     display: inline-block;
     block-size: 15%;
+    background-color: #31363b;
 }
 ul {
     margin: 0;
     padding: 0px;
 }
-.odkazy {
+.odkazy a {
     display: block;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration-line: none;
     font-size: 80%;
     color: white;
-    background-color: #31363b;
-
 }  
 .portfolio {
     text-align: center;
@@ -93,22 +92,23 @@ ul {
     text-align: center; 
     padding: 10px;
     margin: 0;
-    box-shadow: 0,5px 0,5px 0,5px #3f464d;
+    box-shadow: 0.5px 0.5px 0.5px #3f464d;
 }
 .twitter {
     background-color: #1da1f2;
 }
 
-a:hover, a:focus {
+.twitter a:hover, a:focus {
+    background-color: #e74c3c;
+}
+.facebook a:hover, a:focus {
+    background-color: #3b5998;
+}
+.portfolio a:hover, a:focus {
     background-color: #e74c3c;
 }
 
 
 /*
-Prosím pomoct s těmito zádrhely:
-- nemůžu se zbavit podtrženého textu
-- nelze mi změnit barva textu v odkazech
-- nějak nevím, jak nastavit každému tlačítku jinou barvu při najetí myši
-Děkuji :)
 */
 
